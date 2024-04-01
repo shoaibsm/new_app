@@ -8,6 +8,7 @@ export const fetchData = createAsyncThunk('news/fetch', async (query) => {
         // const response = await fetch(`https://newsapi.org/v2/everything?q=${query}&from=2024-03-01&sortBy=publishedAt&apiKey=${apiKey}`)
         const response = await fetch(`https://newsapi.org/v2/everything?q=${query}&from=2024-03-01&sortBy=publishedAt&apiKey=f854849b64f342a8ac4a71fa7913834c`)
 
+        console.log('API Key:', apiKey);
 
         const jsonData = await response.json();
 
