@@ -1,0 +1,29 @@
+.NewsApp {
+    width: 70%;
+    margin-inline: auto;
+    padding-top: 90px;
+
+    .NewsApp__topSearch {
+        width: 100%;
+    }
+
+    .NewsAp__newsList {
+        display: grid;
+        grid-template-columns: repeat(3, 34%);
+        justify-content: center;
+        gap: 8px;
+
+        @media (max-width: 768px) {
+            grid-template-columns: repeat(2, 50%);
+        }
+
+        @media (max-width: 480px) {
+            grid-template-columns: 100%;
+        }
+    }
+
+    @media (max-width: 480px) {
+        width: 100%;
+        margin-inline: 16px;
+    }
+}

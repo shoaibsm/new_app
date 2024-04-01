@@ -1,0 +1,47 @@
+.NewsCard {
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px #eee;
+    display: flex;
+    flex-direction: column;
+
+    .NewsCard__image {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .NewsCard__title {
+        font-weight: 400;
+        font-size: 1rem;
+        padding-top: 4px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .NewsCard__desc {
+        font-size: 0.7rem;
+        padding-top: 4px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+    }
+
+    .NewsCard__readMore {
+        width: 50%;
+        font-size: 0.7rem;
+        color: #ffffff;
+        display: block;
+        padding: 8px 8px;
+        margin-top: auto;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-inline: auto;
+        letter-spacing: 1px;
+    }
+
+}

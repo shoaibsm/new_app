@@ -1,0 +1,25 @@
+.TopSearch {
+    position: fixed;
+    top: 55px;
+    width: 100%;
+    background-color: #00A9FF;
+
+    .TopSearch__lists {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 16px;
+
+        .TopSearch__listsItems {
+            padding: 4px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+                background-color: gray;
+            }
+        }
+    }
+}
