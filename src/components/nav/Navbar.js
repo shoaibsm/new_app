@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useRef } from 'react'
 import './Navbar.scss'
 import brandLogo from '../../assets/HN_logo.png'
 import { IoSearchOutline } from "react-icons/io5";
