@@ -4,6 +4,8 @@ import NewsCard from '../../components/newscard/NewsCard'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchData } from '../../redux/slices/newsSlice'
 
+// REACT_APP_API_KEY=f854849b64f342a8ac4a71fa7913834c
+
 function NewsApp() {
 
     const dispatch = useDispatch();
